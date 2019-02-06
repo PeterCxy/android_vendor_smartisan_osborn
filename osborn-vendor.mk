@@ -499,6 +499,7 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/osborn/proprietary/vendor/lib64/soundfx/libqcvirt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libqcvirt.so
 
 PRODUCT_PACKAGES += \
+    libmmcamera_interface \
     libdualcameraddm \
     dm-tool \
     logic_volume
