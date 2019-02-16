@@ -145,6 +145,7 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/osborn/proprietary/vendor/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg \
     vendor/smartisan/osborn/proprietary/vendor/etc/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf \
     vendor/smartisan/osborn/proprietary/vendor/lib/hw/audio.primary.sdm660.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.sdm660.so \
+    vendor/smartisan/sdm660-common/proprietary/vendor/lib/libMMBeauty.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMMBeauty.so \
     vendor/smartisan/osborn/proprietary/vendor/lib/libSensorManagerHAL.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSensorManagerHAL.so \
     vendor/smartisan/osborn/proprietary/vendor/lib/libarcsoft_beautyshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_beautyshot.so \
     vendor/smartisan/osborn/proprietary/vendor/lib/libarcsoft_dualcam_refocus.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_dualcam_refocus.so \
@@ -153,6 +154,8 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/osborn/proprietary/vendor/lib/libarcsoft_picselfie_algorithm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_picselfie_algorithm.so \
     vendor/smartisan/osborn/proprietary/vendor/lib/libarcsoft_refocus_sm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_refocus_sm.so \
     vendor/smartisan/osborn/proprietary/vendor/lib/libarcsoft_smart_denoise.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_smart_denoise.so \
+    vendor/smartisan/sdm660-common/proprietary/vendor/lib/libmmcv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcv.so \
+    vendor/smartisan/sdm660-common/proprietary/vendor/lib/libmmcv_sm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcv_sm.so \
     vendor/smartisan/osborn/proprietary/vendor/lib/libmmlib2d_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmlib2d_interface.so \
     vendor/smartisan/osborn/proprietary/vendor/lib/libmms_gyro_vstab.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmms_gyro_vstab.so \
     vendor/smartisan/osborn/proprietary/vendor/lib/libmms_gyro_vstab_auth.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmms_gyro_vstab_auth.so \
@@ -160,8 +163,10 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/osborn/proprietary/vendor/lib/libmms_warper_vstab.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmms_warper_vstab.so \
     vendor/smartisan/osborn/proprietary/vendor/lib/libmpbase.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmpbase.so \
     vendor/smartisan/osborn/proprietary/vendor/lib/libsmart_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsmart_hdr.so \
+    vendor/smartisan/sdm660-common/proprietary/vendor/lib/libsmcv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsmcv.so \
     vendor/smartisan/osborn/proprietary/vendor/lib/libtinycompress.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtinycompress.so \
     vendor/smartisan/osborn/proprietary/vendor/lib/libtt_panorama.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtt_panorama.so \
+    vendor/smartisan/sdm660-common/proprietary/vendor/lib/libyuvutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libyuvutils.so \
     vendor/smartisan/osborn/proprietary/vendor/lib/sensors.hal.tof.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.hal.tof.so \
     vendor/smartisan/osborn/proprietary/vendor/lib64/hw/audio.primary.sdm660.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.primary.sdm660.so \
     vendor/smartisan/osborn/proprietary/vendor/lib64/hw/fingerprint.fpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.fpc.so \
@@ -354,6 +359,7 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/osborn/proprietary/vendor/lib/libmmcamera_faceproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_faceproc.so \
     vendor/smartisan/osborn/proprietary/vendor/lib/libmmcamera_faceproc2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_faceproc2.so \
     vendor/smartisan/osborn/proprietary/vendor/lib/libmmcamera_hdr_gb_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_hdr_gb_lib.so \
+    vendor/smartisan/sdm660-common/proprietary/vendor/lib/libmmcamera_hdr_tt_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_hdr_tt_lib.so \
     vendor/smartisan/osborn/proprietary/vendor/lib/libmmcamera_hvx_add_constant.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_hvx_add_constant.so \
     vendor/smartisan/osborn/proprietary/vendor/lib/libmmcamera_hvx_grid_sum.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_hvx_grid_sum.so \
     vendor/smartisan/osborn/proprietary/vendor/lib/libmmcamera_imglib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imglib.so \
